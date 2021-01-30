@@ -2,6 +2,7 @@
 ---
 port: 1919
 socks-port: 2333
+mixed-port: 1919
 redir-port: 1551
 allow-lan: true
 mode: rule
@@ -9,21 +10,34 @@ log-level: info
 ipv6: false
 external-controller: 127.0.0.1:8964
 dns:
-  enable: false
+  enable: true
   listen: 0.0.0.0:53
-  enhanced-mode: redir-host
-  fake-ip-range: 198.18.0.1/16
+  enhanced-mode: fake-ip
   nameserver:
-    - tls://dns.rubyfish.cn:853
-    - tls://dns.alidns.com:853
-  fallback:
-    - tls://1dot1dot1dot1.cloudflare-dns.com:853
-    - tls://dns.google.com:853
-  fallback-filter:
-    geoip: true
-    ipcidr:
-    - 240.0.0.0/4
-    domain:
-    - '+.google.com'
-    - '+.facebook.com'
-    - '+.youtube.com'
+    - 119.29.29.29
+    - 223.5.5.5
+cfw-bypass:
+  - qq.com
+  - music.163.com
+  - localhost
+  - 127.*
+  - 10.*
+  - 172.16.*
+  - 172.17.*
+  - 172.18.*
+  - 172.19.*
+  - 172.20.*
+  - 172.21.*
+  - 172.22.*
+  - 172.23.*
+  - 172.24.*
+  - 172.25.*
+  - 172.26.*
+  - 172.27.*
+  - 172.28.*
+  - 172.29.*
+  - 172.30.*
+  - 172.31.*
+  - 192.168.*
+  - <local>
+cfw-latency-timeout: 5000
