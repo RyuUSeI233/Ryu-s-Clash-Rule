@@ -1,0 +1,28 @@
+---
+port: 1919
+socks-port: 2333
+redir-port: 1551
+allow-lan: true
+mode: rule
+log-level: info
+ipv6: false
+external-controller: 127.0.0.1:8964
+dns:
+  enable: false
+  listen: 0.0.0.0:53
+  enhanced-mode: redir-host
+  fake-ip-range: 198.18.0.1/16
+  nameserver:
+    - tls://dns.rubyfish.cn:853
+    - tls://dns.alidns.com:853
+  fallback:
+    - tls://1dot1dot1dot1.cloudflare-dns.com:853
+    - tls://dns.google.com:853
+  fallback-filter:
+    geoip: true
+    ipcidr:
+    - 240.0.0.0/4
+    domain:
+    - '+.google.com'
+    - '+.facebook.com'
+    - '+.youtube.com'
