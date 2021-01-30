@@ -21,54 +21,54 @@ rule-providers:
   Epic:
     type: http
     behavior: classical
-    url: 'https://cdn.jsdelivr.net/gh/RyuUSeI233/Ryus_Clash_Rule@main/Provider/Game/Epic.yaml
+    url: 'https://cdn.jsdelivr.net/gh/RyuUSeI233/Ryus_Clash_Rule@main/Provider/Game/Epic.yaml'
     path: ./Rules/Game/Epic
     interval: 86400
   Steam:
     type: http
     behavior: classical
-    url: 'https://cdn.jsdelivr.net/gh/RyuUSeI233/Ryus_Clash_Rule@main/Provider/Game/Steam.yaml
+    url: 'https://cdn.jsdelivr.net/gh/RyuUSeI233/Ryus_Clash_Rule@main/Provider/Game/Steam.yaml'
     path: ./Rules/Game/Steam
     interval: 86400
   SteamCN:
     type: http
     behavior: classical
-    url: 'https://cdn.jsdelivr.net/gh/RyuUSeI233/Ryus_Clash_Rule@main/Provider/Game/SteamCN.yaml
+    url: 'https://cdn.jsdelivr.net/gh/RyuUSeI233/Ryus_Clash_Rule@main/Provider/Game/SteamCN.yaml'
     path: ./Rules/Game/SteamCN
     interval: 86400
   BiliBili:
     type: http
     behavior: classical
-    url: 'https://cdn.jsdelivr.net/gh/RyuUSeI233/Ryus_Clash_Rule@main/Provider/Media/BiliBili.yaml
+    url: 'https://cdn.jsdelivr.net/gh/RyuUSeI233/Ryus_Clash_Rule@main/Provider/Media/BiliBili.yaml'
     path: ./Rules/Media/BiliBili
     interval: 86400
   E-Hentai:
     type: http
     behavior: classical
-    url: 'https://cdn.jsdelivr.net/gh/RyuUSeI233/Ryus_Clash_Rule@main/Provider/Media/E-Hentai.yaml
+    url: 'https://cdn.jsdelivr.net/gh/RyuUSeI233/Ryus_Clash_Rule@main/Provider/Media/E-Hentai.yaml'
     path: ./Rules/Media/E-Hentai
     interval: 86400
   AdBlock:
     type: http
     behavior: classical
-    url: 'https://cdn.jsdelivr.net/gh/RyuUSeI233/Ryus_Clash_Rule@main/Provider/Tool/AdBlock.yaml
+    url: 'https://cdn.jsdelivr.net/gh/RyuUSeI233/Ryus_Clash_Rule@main/Provider/Tool/AdBlock.yaml'
     path: ./Rules/Tool/AdBlock
     interval: 86400
   MicroSoft:
     type: http
     behavior: classical
-    url: 'https://cdn.jsdelivr.net/gh/RyuUSeI233/Ryus_Clash_Rule@main/Provider/Tool/MicroSoft.yaml
+    url: 'https://cdn.jsdelivr.net/gh/RyuUSeI233/Ryus_Clash_Rule@main/Provider/Tool/MicroSoft.yaml'
     path: ./Rules/Tool/MicroSoft
     interval: 86400
   DIRECT:
     type: http
     behavior: classical
-    url: 'https://cdn.jsdelivr.net/gh/RyuUSeI233/Ryus_Clash_Rule@main/Provider/DIRECT.yaml
+    url: 'https://cdn.jsdelivr.net/gh/RyuUSeI233/Ryus_Clash_Rule@main/Provider/DIRECT.yaml'
     path: ./Rules/DIRECT
     interval: 86400
   Proxy:
     type: http
     behavior: classical
-    url: 'https://cdn.jsdelivr.net/gh/RyuUSeI233/Ryus_Clash_Rule@main/Provider/Proxy.yaml
+    url: 'https://cdn.jsdelivr.net/gh/RyuUSeI233/Ryus_Clash_Rule@main/Provider/Proxy.yaml'
     path: ./Rules/Proxy
     interval: 86400
