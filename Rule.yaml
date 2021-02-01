@@ -1,5 +1,7 @@
 - RULE-SET,Proxy,Proxy
 - RULE-SET,Steam,Proxy
+- DOMAIN-SUFFIX,onedrive.com,Proxy
+- DOMAIN-KEYWORD,onedrive,Proxy
 - RULE-SET,BiliBili,BiliBili
 - RULE-SET,E-Hentai,E-Hentai
 - RULE-SET,AdBlock,AdBlock

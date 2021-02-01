@@ -1,6 +1,5 @@
 payload:  
   # > Microsoft
-  - DOMAIN-KEYWORD,onedrive
   - DOMAIN-SUFFIX,windowsupdate.com
   - DOMAIN-SUFFIX,azure.com
   - DOMAIN-SUFFIX,fabric.io
@@ -16,7 +15,6 @@ payload:
   - DOMAIN-SUFFIX,msn.com
   - DOMAIN-SUFFIX,office.com
   - DOMAIN-SUFFIX,office.net
-  - DOMAIN-SUFFIX,onedrive.com
   - DOMAIN-SUFFIX,outlook.com
   - DOMAIN-SUFFIX,p.sfx.ms
   - DOMAIN-SUFFIX,s-microsoft.com
